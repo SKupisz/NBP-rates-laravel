@@ -1,0 +1,14 @@
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+
+// Variables
+@import 'variables';
+@import 'main';
+
+@import 'sub/welcome';
+@import 'sub/contact';
+@import 'sub/navbar';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';

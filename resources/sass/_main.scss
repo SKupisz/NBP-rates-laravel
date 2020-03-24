@@ -1,0 +1,45 @@
+.welcome-header{
+    width: calc(90% - 20px);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: "Oswald",sans-serif;
+    font-size: 2.9em;
+}
+
+.courses-container{
+    width: calc(100% - 30px);
+    padding: 15px;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.currency-container,.currency-container-header{
+    width: calc(70% - 20px);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: $body-bg;
+    .code-container,.bid-container,.ask-container{
+        display: inline-block;
+        width: calc(33% - 10px);
+        padding: 5px;
+        font-size: 1.4em;
+        text-align: center;
+    }
+}
+
+.currency-container-header{
+    .code-container,.bid-container,.ask-container{
+        font-size: 1.7em;
+    }
+}

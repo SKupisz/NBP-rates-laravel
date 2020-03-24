@@ -1,0 +1,31 @@
+.main{
+    width: calc(100% - 20px);
+    padding: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.main-particles{
+    width: calc(100% - 20px);
+    height: 180%;
+}
+.contacts{
+    width: calc(80% - 30px);
+    padding: 15px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    .contact-way{
+        font-size: 1.5em;
+        font-family: "Oswald",sans-serif;
+        border: 1px solid black;
+        border-radius: 5px;
+        margin-bottom: 20px;
+        width: calc(100% - 20px);
+        padding: 10px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}

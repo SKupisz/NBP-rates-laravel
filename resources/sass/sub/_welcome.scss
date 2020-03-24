@@ -1,0 +1,27 @@
+.main-particles{
+    z-index: 0;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    text-align: center;
+}
+
+.short-describe{
+    width: calc(60% - 20px);
+    padding: 10px;
+    display: block;
+    text-align: center;
+    font-size: 1.2em;
+    z-index: 2;
+    position: relative;
+    .describe-header{
+        font-size: 1.5em;
+        font-family: "Oswald",sans-serif;
+    }
+}
+.left{
+    margin-left: 10%;
+}
+.right{
+    margin-left: 30%;
+}
