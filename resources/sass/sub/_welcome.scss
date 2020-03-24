@@ -21,7 +21,35 @@
 }
 .left{
     margin-left: 10%;
+    margin-top: 20px;
 }
 .right{
     margin-left: 30%;
+}
+@media screen and (max-width: 916px){
+    .left{
+        margin-left: 5%;
+    }
+    .right{
+        margin-left: 35%;
+    }
+}
+@media screen and (max-width: 674px){
+    .short-describe{
+        width: calc(85% - 20px);
+        font-size: 1em;
+    }
+    .left,.right{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media screen and (max-width: 428px){
+    .short-describe{
+        width: calc(95% - 20px);
+        font-size: 1em;
+    }
+    .left{
+        margin-top: 0px;
+    }
 }

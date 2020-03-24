@@ -23,3 +23,24 @@
         margin-right: 50px;
     }
 }
+@media screen and (max-width: 600px){
+    .main-navbar{
+        text-align: center;
+        .nav-item{
+            margin: 0px 5px;
+        }
+        .contact{
+            margin-right: 5px;
+            float: none;
+        }
+    }
+}
+@media screen and (max-width: 390px){
+    .main-navbar{
+        height: 144px;
+        .contact{
+            width: calc(100% - 20px);
+            margin-top: 10px;
+        }
+    }
+}

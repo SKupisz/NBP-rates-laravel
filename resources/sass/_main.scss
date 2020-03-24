@@ -43,3 +43,51 @@
         font-size: 1.7em;
     }
 }
+
+@media screen and (max-width: 780px){
+    .currency-container,.currency-container-header{
+        width: calc(80% - 20px);
+        .code-container,.bid-container,.ask-container{
+            font-size: 1.2em;
+        }
+    }
+    .currency-container-header{
+        .code-container,.bid-container,.ask-container{
+            font-size: 1.5em;
+        }
+    }
+    
+}
+@media screen and (max-width: 772px){
+    .welcome-header{
+        font-size: 2.5em;
+        width: calc(95% - 20px);
+    }
+}
+@media screen and (max-width: 580px){
+    .currency-container,.currency-container-header{
+        width: $basic-width;
+        .code-container,.bid-container,.ask-container{
+            font-size: 1.2em;
+        }
+    }
+}
+@media screen and (max-width: 480px){
+    .courses-container{
+        width: calc(100% - 10px);
+        padding: 5px;
+    }
+}
+@media screen and (max-width: 444px){
+    .welcome-header{
+        font-size: 2.1em;
+        width: $basic-width;
+    }
+}
+@media screen and (max-width: 398px){
+    .currency-container{
+        .code-container,.bid-container,.ask-container{
+            font-size: 1em;
+        }
+    }
+}

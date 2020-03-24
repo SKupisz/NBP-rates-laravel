@@ -51,6 +51,73 @@
   font-size: 1.7em;
 }
 
+@media screen and (max-width: 780px) {
+  .currency-container,
+  .currency-container-header {
+    width: calc(80% - 20px);
+  }
+
+  .currency-container .code-container,
+  .currency-container .bid-container,
+  .currency-container .ask-container,
+  .currency-container-header .code-container,
+  .currency-container-header .bid-container,
+  .currency-container-header .ask-container {
+    font-size: 1.2em;
+  }
+
+  .currency-container-header .code-container,
+  .currency-container-header .bid-container,
+  .currency-container-header .ask-container {
+    font-size: 1.5em;
+  }
+}
+
+@media screen and (max-width: 772px) {
+  .welcome-header {
+    font-size: 2.5em;
+    width: calc(95% - 20px);
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .currency-container,
+  .currency-container-header {
+    width: calc(100% - 20px);
+  }
+
+  .currency-container .code-container,
+  .currency-container .bid-container,
+  .currency-container .ask-container,
+  .currency-container-header .code-container,
+  .currency-container-header .bid-container,
+  .currency-container-header .ask-container {
+    font-size: 1.2em;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .courses-container {
+    width: calc(100% - 10px);
+    padding: 5px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .welcome-header {
+    font-size: 2.1em;
+    width: calc(100% - 20px);
+  }
+}
+
+@media screen and (max-width: 398px) {
+  .currency-container .code-container,
+  .currency-container .bid-container,
+  .currency-container .ask-container {
+    font-size: 1em;
+  }
+}
+
 .main-particles {
   z-index: 0;
   width: 100%;
@@ -76,10 +143,45 @@
 
 .left {
   margin-left: 10%;
+  margin-top: 20px;
 }
 
 .right {
   margin-left: 30%;
+}
+
+@media screen and (max-width: 916px) {
+  .left {
+    margin-left: 5%;
+  }
+
+  .right {
+    margin-left: 35%;
+  }
+}
+
+@media screen and (max-width: 674px) {
+  .short-describe {
+    width: calc(85% - 20px);
+    font-size: 1em;
+  }
+
+  .left,
+  .right {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media screen and (max-width: 428px) {
+  .short-describe {
+    width: calc(95% - 20px);
+    font-size: 1em;
+  }
+
+  .left {
+    margin-top: 0px;
+  }
 }
 
 .main {
@@ -93,6 +195,11 @@
 .main-particles {
   width: calc(100% - 20px);
   height: 180%;
+}
+
+.main .main-particles,
+.app .main-particles {
+  height: 100%;
 }
 
 .contacts {
@@ -115,6 +222,38 @@
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+
+@media screen and (max-width: 730px) {
+  .main {
+    width: calc(100% - 20px);
+    padding: 0px;
+  }
+
+  .contacts {
+    width: calc(90% - 30px);
+  }
+
+  .contacts .contact-way {
+    font-size: 1.3em;
+    padding: 15px;
+  }
+}
+
+@media screen and (max-width: 444px) {
+  .main {
+    width: 100%;
+    padding: 0px;
+  }
+
+  .contacts {
+    width: calc(100% - 20px);
+  }
+
+  .contacts .contact-way {
+    font-size: 1.3em;
+    padding: 10px;
+  }
 }
 
 .main-navbar {
@@ -143,6 +282,32 @@
 .main-navbar .contact {
   float: right;
   margin-right: 50px;
+}
+
+@media screen and (max-width: 600px) {
+  .main-navbar {
+    text-align: center;
+  }
+
+  .main-navbar .nav-item {
+    margin: 0px 5px;
+  }
+
+  .main-navbar .contact {
+    margin-right: 5px;
+    float: none;
+  }
+}
+
+@media screen and (max-width: 390px) {
+  .main-navbar {
+    height: 144px;
+  }
+
+  .main-navbar .contact {
+    width: calc(100% - 20px);
+    margin-top: 10px;
+  }
 }
 
 /*!
