@@ -1,0 +1,22 @@
+.gold-container{
+    .main-particles{
+        height: 100%;
+    }
+}
+
+
+.gold-chart{
+    margin-left: auto;
+    margin-right: auto;
+}
+@media screen and (max-width: 719px){
+    .gold-chart{
+        width: 90% !important;
+    }
+}
+@media screen and (max-width: 521px){
+    .gold-chart{
+        width: 100% !important;
+        height: 150px !important;
+    }
+}

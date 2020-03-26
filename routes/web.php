@@ -15,6 +15,7 @@ Route::get('/', function(){
     return view("welcome");
 });
 Route::get("/courses","DataProvider@sendDataToPublic");
+Route::get("/gold","GoldProvider@PassTheCourse");
 Route::get("/contact",function(){
     return view("contact");
 });

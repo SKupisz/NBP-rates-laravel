@@ -256,6 +256,28 @@
   }
 }
 
+.gold-container .main-particles {
+  height: 100%;
+}
+
+.gold-chart {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 719px) {
+  .gold-chart {
+    width: 90% !important;
+  }
+}
+
+@media screen and (max-width: 521px) {
+  .gold-chart {
+    width: 100% !important;
+    height: 150px !important;
+  }
+}
+
 .main-navbar {
   width: calc(100% - 20px);
   padding: 10px;
@@ -299,11 +321,12 @@
   }
 }
 
-@media screen and (max-width: 390px) {
+@media screen and (max-width: 492px) {
   .main-navbar {
-    height: 144px;
+    height: 174px;
   }
 
+  .main-navbar .gold,
   .main-navbar .contact {
     width: calc(100% - 20px);
     margin-top: 10px;

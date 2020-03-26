@@ -15,3 +15,4 @@ require('./bootstrap');
 require('./components/Welcome');
 require('./components/Contact');
 require('./components/Navbar');
+require('./components/Chart');

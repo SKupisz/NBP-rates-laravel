@@ -11,6 +11,9 @@ export default class Navbar extends React.Component{
                 <a href = "/courses">
                     <div className="course nav-item">Currency courses</div>
                 </a>
+                <a href = "/gold">
+                    <div className="gold nav-item">Gold courses</div>
+                </a>
                 <a href = "/contact">
                     <div className="contact nav-item">Contact</div>
                 </a>  
